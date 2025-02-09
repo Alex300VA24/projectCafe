@@ -54,7 +54,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../../../../../Users/Mireved/Downloads/logo-marron-removebg-preview.png</pixmap>
+    <pixmap>../../../resources/images/logo-cafeteria.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -93,7 +93,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../../../../../Users/Mireved/Downloads/Cafeteria/cafe-luces - header.png</pixmap>
+    <pixmap>../../../resources/images/header.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>

@@ -26,7 +26,7 @@ class Ui_FormMenu(object):
         self.logo_cafeteria = QtWidgets.QLabel(parent=FormMenu)
         self.logo_cafeteria.setGeometry(QtCore.QRect(390, 30, 101, 81))
         self.logo_cafeteria.setText("")
-        self.logo_cafeteria.setPixmap(QtGui.QPixmap("../../../../../../Users/Mireved/Downloads/logo-marron-removebg-preview.png"))
+        self.logo_cafeteria.setPixmap(QtGui.QPixmap("../../../resources/images/logo-cafeteria.png"))
         self.logo_cafeteria.setScaledContents(True)
         self.logo_cafeteria.setObjectName("logo_cafeteria")
         self.cerrar_sesion = QtWidgets.QPushButton(parent=FormMenu)
@@ -52,7 +52,7 @@ class Ui_FormMenu(object):
 "")
         self.cerrar_sesion.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("../../../../../../Users/Mireved/Downloads/cerrar-sesion.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("../../../resources/images/cerrar-sesion.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.cerrar_sesion.setIcon(icon)
         self.cerrar_sesion.setIconSize(QtCore.QSize(50, 50))
         self.cerrar_sesion.setObjectName("cerrar_sesion")
@@ -94,7 +94,7 @@ class Ui_FormMenu(object):
 "    border: 2px solid #F2E8CF;\n"
 "}")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("../../../../../../Users/Mireved/Downloads/registro-ventas.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("../../../resources/images/registro-ventas.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.button_registrar_ventas.setIcon(icon1)
         self.button_registrar_ventas.setIconSize(QtCore.QSize(80, 80))
         self.button_registrar_ventas.setToolButtonStyle(QtCore.Qt.ToolButtonStyle.ToolButtonTextUnderIcon)
@@ -129,7 +129,7 @@ class Ui_FormMenu(object):
 "    border: 2px solid #F2E8CF;\n"
 "}")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("../../../../../../Users/Mireved/Downloads/gestion-stock.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon2.addPixmap(QtGui.QPixmap("../../../resources/images/gestion-stock.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.button_gestionar_stock.setIcon(icon2)
         self.button_gestionar_stock.setIconSize(QtCore.QSize(80, 80))
         self.button_gestionar_stock.setToolButtonStyle(QtCore.Qt.ToolButtonStyle.ToolButtonTextUnderIcon)
@@ -164,7 +164,7 @@ class Ui_FormMenu(object):
 "    border: 2px solid #F2E8CF;\n"
 "}")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("../../../../../../Users/Mireved/Downloads/reporte-ventas.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon3.addPixmap(QtGui.QPixmap("../../../resources/images/reporte-ventas.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.button_reportes_ventas.setIcon(icon3)
         self.button_reportes_ventas.setIconSize(QtCore.QSize(80, 80))
         self.button_reportes_ventas.setToolButtonStyle(QtCore.Qt.ToolButtonStyle.ToolButtonTextUnderIcon)
@@ -208,7 +208,7 @@ class Ui_FormMenu(object):
 "    border: 2px solid #F2E8CF;\n"
 "}")
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("../../../../../../Users/Mireved/Downloads/tendencia-ventas.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon4.addPixmap(QtGui.QPixmap("../../../resources/images/tendencia-ventas.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.button_tendencias.setIcon(icon4)
         self.button_tendencias.setIconSize(QtCore.QSize(80, 80))
         self.button_tendencias.setToolButtonStyle(QtCore.Qt.ToolButtonStyle.ToolButtonTextUnderIcon)
@@ -243,7 +243,7 @@ class Ui_FormMenu(object):
 "    border: 2px solid #F2E8CF;\n"
 "}")
         icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap("../../../../../../Users/Mireved/Downloads/prediccion-demanda.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon5.addPixmap(QtGui.QPixmap("../../../resources/images/prediccion.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.button_prediccion.setIcon(icon5)
         self.button_prediccion.setIconSize(QtCore.QSize(80, 80))
         self.button_prediccion.setToolButtonStyle(QtCore.Qt.ToolButtonStyle.ToolButtonTextUnderIcon)

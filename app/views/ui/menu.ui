@@ -47,7 +47,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../../../../../Users/Mireved/Downloads/logo-marron-removebg-preview.png</pixmap>
+    <pixmap>../../../resources/images/logo-cafeteria.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -88,7 +88,7 @@ QPushButton:pressed {
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>../../../../../../Users/Mireved/Downloads/cerrar-sesion.png</normaloff>../../../../../../Users/Mireved/Downloads/cerrar-sesion.png</iconset>
+     <normaloff>../../../resources/images/cerrar-sesion.png</normaloff>../../../resources/images/cerrar-sesion.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -176,7 +176,7 @@ QToolButton:pressed {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../../../../../Users/Mireved/Downloads/registro-ventas.png</normaloff>../../../../../../Users/Mireved/Downloads/registro-ventas.png</iconset>
+        <normaloff>../../../resources/images/registro-ventas.png</normaloff>../../../resources/images/registro-ventas.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -237,7 +237,7 @@ QToolButton:pressed {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../../../../../Users/Mireved/Downloads/gestion-stock.png</normaloff>../../../../../../Users/Mireved/Downloads/gestion-stock.png</iconset>
+        <normaloff>../../../resources/images/gestion-stock.png</normaloff>../../../resources/images/gestion-stock.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -298,7 +298,7 @@ QToolButton:pressed {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../../../../../Users/Mireved/Downloads/reporte-ventas.png</normaloff>../../../../../../Users/Mireved/Downloads/reporte-ventas.png</iconset>
+        <normaloff>../../../resources/images/reporte-ventas.png</normaloff>../../../resources/images/reporte-ventas.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -393,7 +393,7 @@ Ventas</string>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../../../../../Users/Mireved/Downloads/tendencia-ventas.png</normaloff>../../../../../../Users/Mireved/Downloads/tendencia-ventas.png</iconset>
+        <normaloff>../../../resources/images/tendencia-ventas.png</normaloff>../../../resources/images/tendencia-ventas.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -455,7 +455,7 @@ QToolButton:pressed {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../../../../../Users/Mireved/Downloads/prediccion-demanda.png</normaloff>../../../../../../Users/Mireved/Downloads/prediccion-demanda.png</iconset>
+        <normaloff>../../../resources/images/prediccion-demanda.png</normaloff>../../../resources/images/prediccion-demanda.png</iconset>
       </property>
       <property name="iconSize">
        <size>
