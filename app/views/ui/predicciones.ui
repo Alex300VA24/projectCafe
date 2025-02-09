@@ -99,10 +99,24 @@
     <bool>true</bool>
    </property>
   </widget>
+  <widget class="QPushButton" name="button_cancelar">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>530</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </widget>
   <zorder>label</zorder>
   <zorder>fondo_header</zorder>
   <zorder>label_7</zorder>
   <zorder>label_2</zorder>
+  <zorder>button_cancelar</zorder>
  </widget>
  <resources/>
  <connections/>
