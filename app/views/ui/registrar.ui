@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>contenedorPrincipal</class>
+ <widget class="QWidget" name="contenedorPrincipal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#contenedorPrincipal {
+    background-color: #BFBFBF; /* Gris claro */
+}</string>
+  </property>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>30</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tahoma</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Registro de Ventas</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>101</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../../../Users/Mireved/Downloads/logo-marron-removebg-preview.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_cancelar">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>490</y>
+     <width>101</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tahoma</family>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #2C2C2C;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    color: white;
+}
+
+QPushButton:hover {
+    background-color: #808080; /* Oscurece en hover */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_confirmar">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>490</y>
+     <width>101</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tahoma</family>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #F28705;
+    border: none;
+    border-radius: 8px;
+    padding: 3px;
+    color: white;
+}
+
+QPushButton:hover {
+    background-color: #A65A18; /* Oscurece en hover */
+}</string>
+   </property>
+   <property name="text">
+    <string>Confirmar</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="fondo_header" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-5</x>
+     <y>0</y>
+     <width>911</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget {    
+    background-color: rgba(44, 44, 44, 200); /* Gris oscuro con opacidad */
+
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #F28705; /* Borde sutil naranja */
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 100); /* Sombra para efecto flotante */
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="cantidad_productos">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>247</y>
+     <width>95</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QSpinBox {
+    border: none;
+	background-color: #FFFFFFFF;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="table_lista_productos">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>210</y>
+     <width>428</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget {
+    background-color: #FFFFFFFF;
+    border: 1px solid #F28705;
+    gridline-color: #2C2C2C;
+    font-size: 14px;
+    selection-background-color: #F28705; /* Resaltar selección en naranja */
+}
+
+/* Encabezados de la tabla */
+QHeaderView::section {
+    
+    background-color: white; /* Gris oscuro con opacidad */ /* Fondo oscuro */
+    color: rgb(44, 44, 44); /* Texto blanco */
+    padding: 5px;
+    border: 1px solid #F28705;
+    font-weight: bold;
+}
+</string>
+   </property>
+   <property name="rowCount">
+    <number>2</number>
+   </property>
+   <property name="columnCount">
+    <number>4</number>
+   </property>
+   <row/>
+   <row/>
+   <column>
+    <property name="text">
+     <string>Producto</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Precio</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Stock</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Cantidad</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QComboBox" name="categoria">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>150</y>
+     <width>291</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+    background-color: #FFFFFF;  /* Fondo blanco */
+    color: #2C2C2C; /* Texto oscuro */
+    border: 1px solid #F28705;  /* Borde naranja */
+    padding: 3px;
+    font-size: 14px;
+}
+
+QComboBox:hover {
+    background-color: #F5F5F5; /* Un gris más claro al pasar el cursor */
+}
+QComboBox QAbstractItemView {
+    background-color: #FFFFFF;
+    selection-background-color: #F28705; /* Fondo naranja al seleccionar */
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>120</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tahoma</family>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(44, 44, 44); 
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>Listas de productos</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>901</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../../../Users/Mireved/Downloads/Cafeteria/cafe-luces - header.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>120</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tahoma</family>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(44, 44, 44); 
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>Categoría</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>410</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tahoma</family>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(44, 44, 44); 
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>Total a pagar: S/.</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="table_pedidos">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>150</y>
+     <width>328</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget {
+    background-color: #FFFFFFFF;
+    border: 1px solid #F28705;
+    gridline-color: #2C2C2C;
+    font-size: 14px;
+    selection-background-color: #F28705; /* Resaltar selección en naranja */
+}
+
+/* Encabezados de la tabla */
+QHeaderView::section {
+    
+    background-color: white; /* Gris oscuro con opacidad */ /* Fondo oscuro */
+    color: rgb(44, 44, 44); /* Texto blanco */
+    padding: 5px;
+    border: 1px solid #F28705;
+    font-weight: bold;
+}
+</string>
+   </property>
+   <property name="rowCount">
+    <number>2</number>
+   </property>
+   <property name="columnCount">
+    <number>3</number>
+   </property>
+   <row/>
+   <row/>
+   <column>
+    <property name="text">
+     <string>Producto</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Cantidad</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Subtotal</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>390</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    background-color: transparent; /* Fondo completamente transparente */
+    color: #F28705; /* Naranja vibrante para el texto */
+    font-size: 24px; /* Tamaño grande para resaltar */
+    font-weight: bold; /* Negrita para mayor visibilidad */
+    padding: 5px 0; /* Espaciado arriba y abajo */
+    border: none;
+    border-bottom: 2px solid #D17A22; /* Línea inferior naranja */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>fondo_header</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_2</zorder>
+  <zorder>button_cancelar</zorder>
+  <zorder>button_confirmar</zorder>
+  <zorder>table_lista_productos</zorder>
+  <zorder>cantidad_productos</zorder>
+  <zorder>categoria</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_11</zorder>
+  <zorder>table_pedidos</zorder>
+  <zorder>label_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

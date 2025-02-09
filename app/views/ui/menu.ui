@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormMenu</class>
+ <widget class="QWidget" name="FormMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>901</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, 
+                                stop:0 #1E1E1E, 
+                                stop:1 #2C2C2C);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logo_cafeteria">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>30</y>
+     <width>101</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../../../Users/Mireved/Downloads/logo-marron-removebg-preview.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cerrar_sesion">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>490</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: transparent; 
+    border: none; 
+    border-radius: 12px;
+    padding: 8px 12px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer; /* Indica que es clickeable */
+}
+
+QPushButton:hover {
+    background-color: rgba(209, 122, 34,250); /* Naranja vibrante */
+    border: none; /* Borde crema */
+}
+
+QPushButton:pressed {
+    border: none;
+    transform: scale(0.90); /* Pequeña reducción de tamaño para efecto táctil */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../../Users/Mireved/Downloads/cerrar-sesion.png</normaloff>../../../../../../Users/Mireved/Downloads/cerrar-sesion.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>178</x>
+     <y>138</y>
+     <width>541</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>32</number>
+    </property>
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <property name="leftMargin">
+     <number>16</number>
+    </property>
+    <property name="topMargin">
+     <number>16</number>
+    </property>
+    <property name="rightMargin">
+     <number>16</number>
+    </property>
+    <property name="bottomMargin">
+     <number>16</number>
+    </property>
+    <item>
+     <widget class="QToolButton" name="button_registrar_ventas">
+      <property name="minimumSize">
+       <size>
+        <width>151</width>
+        <height>151</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>151</width>
+        <height>151</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+    background-color: #2C2C2C; /* Gris oscuro */
+    border: 2px solid #D17A22; /* Borde naranja */
+    border-radius: 12px;
+    color: #F2E8CF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px;
+    transition: all 0.3s ease-in-out;
+}
+
+QToolButton:hover {
+    background-color: #D17A22; /* Se vuelve naranja */
+    color: #1E1E1E; /* Texto oscuro para contraste */
+    border: 2px solid #F2E8CF; /* Borde en crema */
+}
+
+QToolButton:pressed {
+    background-color: #A65A18; /* Naranja más oscuro */
+    border: 2px solid #F2E8CF;
+}</string>
+      </property>
+      <property name="text">
+       <string>Registrar Ventas</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../../../Users/Mireved/Downloads/registro-ventas.png</normaloff>../../../../../../Users/Mireved/Downloads/registro-ventas.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>80</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextUnderIcon</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="button_gestionar_stock">
+      <property name="minimumSize">
+       <size>
+        <width>151</width>
+        <height>151</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>151</width>
+        <height>151</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+    background-color: #2C2C2C; /* Gris oscuro */
+    border: 2px solid #D17A22; /* Borde naranja */
+    border-radius: 12px;
+    color: #F2E8CF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px;
+    transition: all 0.3s ease-in-out;
+}
+
+QToolButton:hover {
+    background-color: #D17A22; /* Se vuelve naranja */
+    color: #1E1E1E; /* Texto oscuro para contraste */
+    border: 2px solid #F2E8CF; /* Borde en crema */
+}
+
+QToolButton:pressed {
+    background-color: #A65A18; /* Naranja más oscuro */
+    border: 2px solid #F2E8CF;
+}</string>
+      </property>
+      <property name="text">
+       <string>Gestionar Stock</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../../../Users/Mireved/Downloads/gestion-stock.png</normaloff>../../../../../../Users/Mireved/Downloads/gestion-stock.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>80</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextUnderIcon</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="button_reportes_ventas">
+      <property name="minimumSize">
+       <size>
+        <width>151</width>
+        <height>151</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>151</width>
+        <height>151</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+    background-color: #2C2C2C; /* Gris oscuro */
+    border: 2px solid #D17A22; /* Borde naranja */
+    border-radius: 12px;
+    color: #F2E8CF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px;
+    transition: all 0.3s ease-in-out;
+}
+
+QToolButton:hover {
+    background-color: #D17A22; /* Se vuelve naranja */
+    color: #1E1E1E; /* Texto oscuro para contraste */
+    border: 2px solid #F2E8CF; /* Borde en crema */
+}
+
+QToolButton:pressed {
+    background-color: #A65A18; /* Naranja más oscuro */
+    border: 2px solid #F2E8CF;
+}</string>
+      </property>
+      <property name="text">
+       <string>Reportes de Ventas</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../../../Users/Mireved/Downloads/reporte-ventas.png</normaloff>../../../../../../Users/Mireved/Downloads/reporte-ventas.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>80</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextUnderIcon</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>320</y>
+     <width>381</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <property name="spacing">
+     <number>24</number>
+    </property>
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <property name="leftMargin">
+     <number>16</number>
+    </property>
+    <property name="topMargin">
+     <number>16</number>
+    </property>
+    <property name="rightMargin">
+     <number>16</number>
+    </property>
+    <property name="bottomMargin">
+     <number>16</number>
+    </property>
+    <item>
+     <widget class="QToolButton" name="button_tendencias">
+      <property name="minimumSize">
+       <size>
+        <width>151</width>
+        <height>151</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>151</width>
+        <height>151</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+    background-color: #2C2C2C; /* Gris oscuro */
+    border: 2px solid #D17A22; /* Borde naranja */
+    border-radius: 12px;
+    color: #F2E8CF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px;
+    transition: all 0.3s ease-in-out;
+}
+
+QToolButton:hover {
+    background-color: #D17A22; /* Se vuelve naranja */
+    color: #1E1E1E; /* Texto oscuro para contraste */
+    border: 2px solid #F2E8CF; /* Borde en crema */
+}
+
+QToolButton:pressed {
+    background-color: #A65A18; /* Naranja más oscuro */
+    border: 2px solid #F2E8CF;
+}</string>
+      </property>
+      <property name="text">
+       <string>Tendencia de
+Ventas</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../../../Users/Mireved/Downloads/tendencia-ventas.png</normaloff>../../../../../../Users/Mireved/Downloads/tendencia-ventas.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>80</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextUnderIcon</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="button_prediccion">
+      <property name="minimumSize">
+       <size>
+        <width>151</width>
+        <height>151</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>151</width>
+        <height>151</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+    background-color: #2C2C2C; /* Gris oscuro */
+    border: 2px solid #D17A22; /* Borde naranja */
+    border-radius: 12px;
+    color: #F2E8CF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+QToolButton:hover {
+    background-color: #D17A22; /* Se vuelve naranja */
+    color: #1E1E1E; /* Texto oscuro para contraste */
+    border: 2px solid #F2E8CF; /* Borde en crema */
+}
+
+QToolButton:pressed {
+    background-color: #A65A18; /* Naranja más oscuro */
+    border: 2px solid #F2E8CF;
+}</string>
+      </property>
+      <property name="text">
+       <string>Predicción de
+ Demanda</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../../../Users/Mireved/Downloads/prediccion-demanda.png</normaloff>../../../../../../Users/Mireved/Downloads/prediccion-demanda.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>80</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="toolButtonStyle">
+       <enum>Qt::ToolButtonTextUnderIcon</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

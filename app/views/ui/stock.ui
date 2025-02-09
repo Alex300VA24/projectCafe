@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>contenedorPrincipal</class>
+ <widget class="QWidget" name="contenedorPrincipal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#contenedorPrincipal {
+    background-color: #BFBFBF; /* Gris claro */
+}</string>
+  </property>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>30</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tahoma</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Gestionar Stock</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>101</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../../../Users/Mireved/Downloads/logo-marron-removebg-preview.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_cancelar">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>490</y>
+     <width>101</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tahoma</family>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #2C2C2C;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    color: white;
+}
+
+QPushButton:hover {
+    background-color: #808080; /* Oscurece en hover */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_confirmar">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>490</y>
+     <width>101</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tahoma</family>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #F28705;
+    border: none;
+    border-radius: 8px;
+    padding: 3px;
+    color: white;
+}
+
+QPushButton:hover {
+    background-color: #A65A18; /* Oscurece en hover */
+}</string>
+   </property>
+   <property name="text">
+    <string>Confirmar</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="fondo_header" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-5</x>
+     <y>0</y>
+     <width>911</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget {    
+    background-color: rgba(44, 44, 44, 200); /* Gris oscuro con opacidad */
+
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #F28705; /* Borde sutil naranja */
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 100); /* Sombra para efecto flotante */
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>901</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../../../Users/Mireved/Downloads/Cafeteria/cafe-luces - header.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>120</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tahoma</family>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(44, 44, 44); 
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>Categoría</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>fondo_header</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_2</zorder>
+  <zorder>button_cancelar</zorder>
+  <zorder>button_confirmar</zorder>
+  <zorder>label_10</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

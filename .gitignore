@@ -9,3 +9,6 @@
 
 # Ignorar todos los directorios __pycache__/
 __pycache__/
+
+# Ignorar todos archivos de entorno virtual
+venv/
