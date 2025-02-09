@@ -14,7 +14,7 @@ class MenuView(QMainWindow):
     def set_controller(self, controller):
         """Conectar el controlador a la vista"""
         self.controller = controller
-        # self.ui.button_tendencias.clicked.connect(self.controller.regresar_login)
+        self.ui.cerrar_sesion.clicked.connect(self.controller.regresar_login)
         self.ui.button_prediccion.clicked.connect(
             lambda: self.controller.abrir_ventana("predicciones")
         )
